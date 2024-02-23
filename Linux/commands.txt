@@ -1,0 +1,28 @@
+  620  cd itog/
+  621  cat > pats.txt
+  622  cat > pack_ainmals.txt
+  623  cat pats.txt pack_ainmals.txt > animals.txt
+  624  cat animals.txt 
+  625  mv animals.txt human_friends.txt
+  626  ll
+  627  clear
+  628  mkdir directory
+  629  mv human_friends.txt directory/
+  630  ls
+  631  clear
+  632  wget https://dev.mysql.com/get/mysql-apt-config_0.8.29-1_all.deb
+  633  sudo dpkg -i mysql-apt-config_0.8.29-1_all.deb
+  634  sudo apt-get update
+  635  sudo apt-get install mysql-server
+  636  systemctl status mysql
+  637  clear
+  638  mysqld --version
+  639  wget https://dev.mysql.com/get/mysql-apt-config_0.8.1-1_all.deb
+  640  sudo dpkg -i mysql-apt-config_0.8.1-1_all.deb
+  641  sudo dpkg -r mysql-apt-config_0.8.1-1_all.deb
+  642  sudo dpkg -r mysql-apt-config_0.8.1-1
+  643  dpkg -l
+  644  sudo dpkg -r mysql-apt-config
+  645  sudo apt-get autoremove
+  646  clear
+  647  history
